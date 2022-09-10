@@ -3,8 +3,6 @@
 ### Input - All eight questions given in the assignment.
 ### Output - The right answer for the specific question.
 
-
-
 def welcome_assignment_answers(question):
     #Students do not have to follow the skeleton for this assignment.
     #Another way to implement is using a "case" statements similar to C.
@@ -18,17 +16,21 @@ def welcome_assignment_answers(question):
         answer = "Yes"
     elif question == "Is a hashed message supposed to be un-hashed? - Yes/No":
         answer = "No"
-    elif question == "What is the MD5 hashing value to the following message: 'NYU Computer Networking' - Use MD5 hash generator and use the answer in your code":
-        answer = "42b76fe51778764973077a5a94056724"
+    elif question == "What is the SHA1 hashing value to the following message: 'NYU Computer Networking' - Use SHA1 hash generator and use the answer in your code":
+        answer = "8496abe9fceb5aa927e28bfbd9a2347d1290ef9b"
     elif question == "Is MD5 a secured hashing algorithm? - Yes/No":
         answer = "No"
     elif question == "What layer from the TCP/IP model the protocol DHCP belongs to? - The answer should be a numeric number":
-        answer = 5
+        answer = int("5")
     elif question == "What layer of the TCP/IP model the protocol TCP belongs to? - The answer should be a numeric number":
-        answer = 4
+        answer = int("4")
     return(answer)
 # Complete all the questions.
 # Complete all the questions.
+
+
+
+
 
 
 if __name__ == "__main__":
