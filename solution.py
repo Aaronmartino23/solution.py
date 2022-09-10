@@ -2,7 +2,8 @@
 ### Input - All eight questions given in the assignment.
 ### Output - The right answer for the specific question.
 
-
+answer = ""
+ 
 def welcome_assignment_answers(question):
     #Students do not have to follow the skeleton for this assignment.
     #Another way to implement is using a "case" statements similar to C.
